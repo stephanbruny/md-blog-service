@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <div id="navigation">
+        {{#context}}
+        {{#blog}}
+        <a href="{{name}}"><span>{{title}}</span> <span class="date">({{date}})</span></a>
+        {{/blog}}
+        {{/context}}
+    </div>
+    <div id="content">
+    {{{content}}}
+    </div>
+</body>
+
+</html>

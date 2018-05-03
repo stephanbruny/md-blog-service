@@ -1,0 +1,6 @@
+{
+    "MD_BLOG_PORT": 8081,
+    "MD_BLOG_TEMPLATE": "./app-data/default-template.hbs",
+    "MD_BLOG_INDEX": "./app-data/index.json",
+    "MD_BLOG_ARTICLE_FOLDER": "./app-data/example"
+}
